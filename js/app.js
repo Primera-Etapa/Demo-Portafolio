@@ -38,8 +38,8 @@ document.querySelectorAll('.chip').forEach(t => {
   if (!btn) return;
   btn.addEventListener('click', () => {
     const link = document.createElement('a');
-    link.href = 'assets/Bryan R. Osorio Bedrillana.pdf';
-    link.download = 'Bryan R. Osorio Bedrillana.pdf';
+    link.href = 'assets/CV.pdf';
+    link.download = 'Ricardo O. Bedrillana.pdf';
     link.click();
   });
 })();
